@@ -1,0 +1,10 @@
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-card {
+  width: 300px;
+  margin: 10px;
+}

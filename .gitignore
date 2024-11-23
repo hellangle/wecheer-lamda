@@ -1,0 +1,4 @@
+image-display-app/node_modules
+ImageProcessor/src/ImageProcessor/bin
+ImageProcessor/src/ImageProcessor/obj
+ImageProcessor/src/ImageProcessor/.vs

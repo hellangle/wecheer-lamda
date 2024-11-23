@@ -1,0 +1,10 @@
+<h1>Events received in the last hour: {{ eventCount }}</h1>
+<div class="image-event">
+  <mat-card *ngIf="imageEvent">
+    <img mat-card-image [src]="imageEvent.imageUrl" alt="Image">
+    <mat-card-content>
+      <p>{{ imageEvent.description }}</p>
+      <p>{{ imageEvent.receivedAt | date: 'short' }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
